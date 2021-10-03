@@ -1,0 +1,29 @@
+.nav-container {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.nav-link {
+    color: #882c94 !important;
+    margin: 10px 18px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #72247c;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(../../../images/menu-icon.png);
+}
+
+@media (max-width:992px) {
+    .custom {
+        border: 1px solid #E0E0E0 !important;
+        border-radius: 15px;
+        margin: 25px 0px;
+    }
+}

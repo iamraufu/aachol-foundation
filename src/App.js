@@ -1,24 +1,91 @@
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Home from './Components/Home/Home';
+import NotFound from './Components/NotFound/NotFound';
+import About from './Components/AboutUs/About';
+import Events from './Components/AboutUs/Events';
+import Publications from './Components/AboutUs/Publications';
+import HomeEconomics from './Components/Chapters/HomeEconomics';
+import EdenMohila from './Components/Chapters/EdenMohila';
+import JNU from './Components/Chapters/JNU';
+import ProjectSurfaid from './Components/Projects/ProjectSurfaid';
+import ProjectAwaj from './Components/Projects/ProjectAwaj';
+import ProjectHappiness from './Components/Projects/ProjectHappiness';
+import ProjectLinchpin from './Components/Projects/ProjectLinchpin';
+import Members from './Components/Members/Members';
+import Blogs from './Components/Blogs/Blogs';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+
+        <Route exact path="/">
+          <Home />
+        </Route>
+
+        <Route path="/home">
+          <Home />
+        </Route>
+
+        <Route path='/about'>
+          <About />
+        </Route>
+
+        <Route path='/events'>
+          <Events />
+        </Route>
+
+        <Route path='/publications'>
+          <Publications />
+        </Route>
+
+        <Route path='/home-economics'>
+          <HomeEconomics />
+        </Route>
+
+        <Route path='/eden-mohila-college'>
+          <EdenMohila />
+        </Route>
+
+        <Route path='/jagannath-university'>
+          <JNU />
+        </Route>
+
+        <Route path='/project-awaj'>
+          <ProjectAwaj />
+        </Route>
+
+        <Route path='/project-surfaid'>
+          <ProjectSurfaid />
+        </Route>
+
+        <Route path='/project-happiness'>
+          <ProjectHappiness />
+        </Route>
+
+        <Route path='/project-linchpin'>
+          <ProjectLinchpin />
+        </Route>
+
+        <Route path='/members'>
+          <Members />
+        </Route>
+
+        <Route path='/blogs'>
+          <Blogs />
+        </Route>
+
+        <Route path="*">
+          <NotFound />
+        </Route>
+
+      </Switch>
+    </Router>
   );
 }
 
