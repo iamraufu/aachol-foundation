@@ -18,6 +18,9 @@ import ProjectHappiness from './Components/Projects/ProjectHappiness';
 import ProjectLinchpin from './Components/Projects/ProjectLinchpin';
 import Members from './Components/Members/Members';
 import Blogs from './Components/Blogs/Blogs';
+import OfficialApp from './Components/OfficialApp/OfficialApp';
+import Register from './Components/Register/Register';
+import Media from './Components/AboutUs/Media';
 
 function App() {
   return (
@@ -78,6 +81,18 @@ function App() {
 
         <Route path='/blogs'>
           <Blogs />
+        </Route>
+
+        <Route path='/app'>
+          <OfficialApp />
+        </Route>
+
+        <Route path='/registration'>
+          <Register />
+        </Route>
+
+        <Route path='/media'>
+          <Media />
         </Route>
 
         <Route path="*">
