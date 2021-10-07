@@ -18,6 +18,11 @@ import ProjectHappiness from './Components/Projects/ProjectHappiness';
 import ProjectLinchpin from './Components/Projects/ProjectLinchpin';
 import Members from './Components/Members/Members';
 import Blogs from './Components/Blogs/Blogs';
+import Blog1 from './Components/Blogs/Blog1';
+import Blog2 from './Components/Blogs/Blog2';
+import Blog3 from './Components/Blogs/Blog3';
+import Blog4 from './Components/Blogs/Blog4';
+import Blog5 from './Components/Blogs/Blog5';
 import OfficialApp from './Components/OfficialApp/OfficialApp';
 import Register from './Components/Register/Register';
 import Media from './Components/AboutUs/Media';
@@ -81,6 +86,26 @@ function App() {
 
         <Route path='/blogs'>
           <Blogs />
+        </Route>
+
+        <Route path='/blog1'>
+          <Blog1 />
+        </Route>
+
+        <Route path='/blog2'>
+          <Blog2 />
+        </Route>
+
+        <Route path='/blog3'>
+          <Blog3 />
+        </Route>
+
+        <Route path='/blog4'>
+          <Blog4 />
+        </Route>
+
+        <Route path='/blog5'>
+          <Blog5 />
         </Route>
 
         <Route path='/app'>

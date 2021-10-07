@@ -54,3 +54,41 @@
 .btn-register:hover {
     background-image: linear-gradient(335.64deg, rgb(231, 67, 133) -19.22%, rgb(252, 13, 104) 118.87%);
 }
+
+.subscribe {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./images/bg-contact.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.input-email {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-email:focus {
+    outline: none;
+}
+
+@media (max-width:768px) {
+    .input-email {
+        width: 300px;
+    }
+}
+
+@media (max-width:454px) {
+    .input-email {
+        width: 200px;
+    }
+}
+
+@media (max-width:354px) {
+    .input-email {
+        width: 180px;
+    }
+}

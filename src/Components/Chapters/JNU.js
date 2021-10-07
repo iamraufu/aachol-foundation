@@ -10,8 +10,8 @@ const JNU = () => {
 
             <Helmet>
                 <title>Jagannath University Chapter - Aachol Foundation</title>
-                <meta name="title" content="Aachol Foundation - You Always Matter" />
-                <meta name="description" content="Aachol Foundation is a social youth-led organization advocating mental health in Bangladesh." />
+                <meta name="title" content="Jagannath University Chapter | Aachol Foundation - You Always Matter" />
+                <meta name="description" content="Aachol Foundation is a non-profit social organization aimed to create awareness among students about taking care of their mental health, to recognize strengths as well as weaknesses, and to make them focused, participative in daily life." />
                 <meta name="keywords" content="aachol foundation, youth, young, student, suicide, mental health, depression, anxiety" />
             </Helmet>
             
