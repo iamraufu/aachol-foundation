@@ -1,5 +1,8 @@
 # Aachol Foundation
 
+## Total Working Hours of This Project 🚀
+<img src="https://wakatime.com/badge/user/5d261342-06a0-4615-9707-05a1926dc0b4/project/dfd400c8-e4dc-49a3-8fc7-408ccd499a07.svg">
+
 ## Our Vision
 
 Aachol Foundation is a social youth-led organization advocating mental health in Bangladesh. We envision a society where mental health is recognized as an essential part of overall well-being. Mental health is not solely an individual responsibility but is a product of community conditions. We thrive with determination, dedication, and passion to build up a community that is aware of mental health, promotes mental health breaking and overcoming all stigma, and living with compassion. We dream of a better healthy social environment for the future generation and work every day towards making that dream come true. We are ambitious to bring down the suicide rate of youth to zero. We are a bunch of youth who are determined to make this possible in our country, not to lose someone at a very young age due to suicide.
